@@ -1,0 +1,16 @@
+query,query_type,target_intent,category,expected_match_description
+I need to cancel order #98214 before it ships out,exact_lexical,cancel_order,ORDER,Instructions and protocols for canceling an active order before dispatch.
+Where is my package? The tracking link hasn't updated in three days,semantic_paraphrase,track_order,ORDER,"Checking delivery transit status, carrier tracking, and ETA."
+How do I request a full refund for an item that arrived damaged?,semantic_paraphrase,get_refund,REFUND,Steps to initiate a return/reimbursement claim for damaged merchandise.
+I forgot my password and can't log into my account,exact_lexical,recover_password,ACCOUNT,"Account password recovery, reset emails, and authentication help."
+Can I update the delivery address on an order I just placed?,semantic_paraphrase,change_shipping_address,ORDER,Modifying shipping address before fulfillment occurs.
+invoice pdf download copy order receipt,keyword_sparse,get_invoice,INVOICE,"Downloading tax invoices, official receipts, or billing statements."
+My credit card was charged twice for the same transaction,conversational_informal,payment_issue,PAYMENT,"Troubleshooting double charges, billing discrepancies, or gateway errors."
+Please connect me to a human representative right now,exact_lexical,contact_human_agent,CONTACT,Escalating query to live human agent support or phone helpline.
+Will I be charged a fee if I cancel my subscription mid-cycle?,semantic_paraphrase,check_cancellation_fee,CANCELLATION_FEE,Explaining penalty costs or early termination fees.
+I would like to permanently delete my account and remove my personal data,semantic_paraphrase,delete_account,ACCOUNT,User account termination and personal data erasure workflows.
+do you accept paypal or apple pay payment options,keyword_sparse,check_payment_methods,PAYMENT,"Inquiring about valid payment methods, digital wallets, and cards."
+The service has been awful and I want to file a formal complaint,conversational_informal,complaint,FEEDBACK,"Filing customer feedback, escalating complaints, or dissatisfaction reports."
+My order shows delivered but I haven't received anything at my door,conversational_informal,track_order,ORDER,Handling missing/misdelivered packages and initiating carrier trace.
+How can I edit my profile name and linked phone number?,semantic_paraphrase,edit_account,ACCOUNT,"Updating user profile information, contact numbers, or account details."
+What is your return policy window for items bought on clearance?,semantic_paraphrase,check_refund_policy,REFUND,"Clarifying return windows, exclusions for final sale items, and eligibility."
